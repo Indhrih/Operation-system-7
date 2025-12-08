@@ -4,6 +4,7 @@ project(system_info_tool C)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
+find_package(PkgConfig)
 # Исходные файлы
 set(SOURCES
     src/main.c
