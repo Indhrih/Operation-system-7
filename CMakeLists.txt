@@ -7,12 +7,12 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 find_package(PkgConfig)
 # Исходные файлы
 set(SOURCES
-    src/main.c
-    src/args_parser.c
-    src/users.c
-    src/processes.c
-    src/help.c
-    src/file_utils.c
+    main.c
+    args_parser.c
+    users.c
+    processes.c
+    help.c
+    file_utils.c
 )
 
 # Исполняемый файл
